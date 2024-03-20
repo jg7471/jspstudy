@@ -53,7 +53,7 @@ public class DancerRepository {
     }
 
     // 댄서 맵에서 댄서 객체를 삭제하는 기능
-    public void delete(String name) {
+    public static void delete(String name) {
         dancerMap.remove(name);
     }
 

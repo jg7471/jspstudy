@@ -107,7 +107,7 @@ public class Dancer {
         return "Dancer{" +
                 "name='" + name + '\'' +
                 ", crewName='" + crewName + '\'' +
-                ", danceLevel='" + danceLevel + '\'' +
+                ", danceLevel=" + danceLevel +
                 ", genres=" + genres +
                 '}';
     }

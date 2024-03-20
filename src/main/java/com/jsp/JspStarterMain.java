@@ -21,6 +21,7 @@ public class JspStarterMain {
 
         //The port that we should run on can be set into an environment variable
         //Look for that variable and default to 8080 if it isn't there.
+        // 실행할 포트를 환경 변수로부터 설정하거나 기본값으로 8080을 사용합니다.
         String webPort = System.getenv("PORT");
         if(webPort == null || webPort.isEmpty()) {
             webPort = "8181";
@@ -34,6 +35,7 @@ public class JspStarterMain {
 
         // Declare an alternative location for your "WEB-INF/classes" dir
         // Servlet 3.0 annotation will work
+        // "WEB-INF/classes" 디렉토리에 대한 대체 위치를 선언합니다.
         File additionWebInfClasses = new File("target/classes");
         WebResourceRoot resources = new StandardRoot(ctx);
         resources.addPreResources(new DirResourceSet(resources, "/WEB-INF/classes",
