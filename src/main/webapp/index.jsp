@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+    <h1>html 자바문법 JSP</h1>
     <h1>Welcome! 꾸꾸까까야</h1>
 </body>
 </html>
