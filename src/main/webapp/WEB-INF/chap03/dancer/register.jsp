@@ -15,7 +15,7 @@
 </head>
 <body>
 
-    <h1>jsp 버전 댄서등록 폼</h1>
+    <h1>jsp 버전 댄서등록1 폼</h1>
     <form action="/regist.do" method="post" id="reg-form">
         <label>
             # 이름 : <input type="text" name="name">
